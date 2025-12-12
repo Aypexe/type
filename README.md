@@ -3,7 +3,7 @@
   <img src=https://github.com/Aypexe/type/blob/main/icon_1024x1024.png width="128" >
 </p>
 
-Type is inspired by Rafal Pastuszak's Ensō -- a personal piece of software we wrote to focus on writing and _not_ editing or overthinking. Type a sentence and hit enter. As you type more sentences, previous ones will fade away, leaving only the work in front of you.
+Type is a minimal writing app inspired by Rafal Pastuszak's Ensō -- a personal piece of software he wrote to focus on writing and _not_ editing or overthinking. Type a sentence and hit enter. As you type more sentences, previous ones will fade away, leaving only the work in front of you.
 
 Ensō had some design limitations that I couldn't get past (like cmd+a not selecting all text), so I rewrote this in SwiftUI as a native MacOS app (working on iPhone/iPad next). In general I did not want to disturb the philosophy of write now, edit later -- but I do find not being able to back a line (especially if you are typing quickly and accidentally commit a line), so I added the ability to cmd+z to the previous line (no further). This should help UX a bit when making minor mistakes that would be more bothersome to not fix... hopefully without disrupting the ethos too much.
 
